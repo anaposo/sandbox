@@ -1,0 +1,136 @@
+body 
+{
+    width: 900px;
+    margin: 0 auto;
+}
+/*need navigation made of buttons and <ul> and you could also do the target link on the same page and the social media link per CSS lesson 3
+and whatever else is in the instructions */
+#wrapper
+{
+    margin-top: 0px;
+    width: 1000px;
+    margin: 0 auto;
+    display: block;
+}
+#header {
+    float: center; 
+    margin: 0 300px; 
+    padding-top: 0px;
+    padding-bottom: 50px; 
+    }
+/*navigation */
+#nav 
+{
+	float: left; 
+	font: bold 24px Times New Roman, Georgia, serif; 
+	text-transform: uppercase; 
+	list-style: none; 
+	margin: 0 200px;
+	padding: 0;
+	width: 700px; 
+}
+
+#nav li 
+{
+	float: left; 
+	width: 150px;
+	text-align: center;
+	line-height: 50px; 
+}
+
+#nav a
+{
+	color: #cc9933;
+	display: block; 
+	padding; 22px;
+	text-decoration: none; 
+}
+
+#nav a:hover 
+{
+	color: #666;
+	text-transform: lowercase; 
+}
+
+ol li 
+{
+	font-size: 15px;
+	color: green;
+	font-size: 20px;
+	font-weight: bold; 
+	
+}
+ol li a
+{
+	text-decoration: none; 
+	color: green; 
+	font-size: 20px;
+	font-weight: bold; 
+}	
+
+ol li a:hover
+{
+	color: blue; 
+}
+/*button */
+.button {
+	background: green;
+	border: 1px solid gray;
+	border-radius: 50px;
+	color: #ddd;
+	font: bold 20px Arial;
+	margin: 9px;
+	padding: 15px 25px;
+	text-decoration: none;
+}
+.button:hover {
+	color: green;
+	background: yellow;
+	box-shadow: 0 0 5em gray;
+	box-shadow: inset 2px 2px 1em black;
+}
+.button:active {
+	color: black;
+}
+/*row and columns */
+#rowcontainer
+{
+    margin-top: 0px;
+    width: 850px;
+    display: inline-block;
+}
+
+h1
+ {
+	font-variant: uppercaps;
+	text-align: center;
+	color: green;
+	font-size: 100px; 
+	font-weight: bold; 
+	padding: 100 0px;
+ }
+
+h4
+{
+    font-variant: small-caps;
+    text-align: center;
+    color: black; 
+}
+.column1
+{
+    float: left;
+    width: 250px;
+    padding: 10px;
+}
+.column2
+{
+    float: left;
+    width: 250px;
+    padding: 10px;
+}
+.column3
+{
+    float: left;
+    width: 250px;
+    padding: 10px;
+}
