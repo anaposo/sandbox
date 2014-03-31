@@ -3,8 +3,7 @@ body
     width: 900px;
     margin: 0 auto;
 }
-/*need navigation made of buttons and <ul> and you could also do the target link on the same page and the social media link per CSS lesson 3
-and whatever else is in the instructions */
+
 #wrapper
 {
     margin-top: 0px;
@@ -22,17 +21,18 @@ and whatever else is in the instructions */
 #nav 
 {
 	float: left; 
-	font: bold 24px Times New Roman, Georgia, serif; 
-	text-transform: uppercase; 
+	font: 25px Arial, sans-serif; 
 	list-style: none; 
-	margin: 0 200px;
+	text-transform: uppercase;
+	margin: 0 350px;
 	padding: 0;
-	width: 700px; 
+	width: 450px; 
 }
 
 #nav li 
 {
 	float: left; 
+	font-color: black;
 	width: 150px;
 	text-align: center;
 	line-height: 50px; 
@@ -40,24 +40,30 @@ and whatever else is in the instructions */
 
 #nav a
 {
-	color: #cc9933;
+	color: white;
 	display: block; 
-	padding; 22px;
+	background: linear-gradient(#9CBA7F, #CFDBC5);
 	text-decoration: none; 
 }
 
 #nav a:hover 
 {
-	color: #666;
-	text-transform: lowercase; 
+	background: radius-gradient (#CFDBC5, #9CBA7F);
+	color: black;
+	text-transform: uppercase;
 }
 
+ol
+{
+	float: left;
+}
 ol li 
 {
 	font-size: 15px;
 	color: green;
 	font-size: 20px;
 	font-weight: bold; 
+	line-height: 50px;
 	
 }
 ol li a
@@ -74,23 +80,24 @@ ol li a:hover
 }
 /*button */
 .button {
-	background: green;
-	border: 1px solid gray;
-	border-radius: 50px;
-	color: #ddd;
-	font: bold 20px Arial;
-	margin: 9px;
-	padding: 15px 25px;
+	background: #78AB46;
+	color: #fff;
+	font: 20px Times New Roman, serif; 
+	padding: 20px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 500px;
+	margin-right: 50px;
 	text-decoration: none;
+	text-align: center;
+	display: inline-block;
 }
 .button:hover {
-	color: green;
-	background: yellow;
-	box-shadow: 0 0 5em gray;
-	box-shadow: inset 2px 2px 1em black;
+	color: #fff;
+	background: #9CBA7F;
 }
 .button:active {
-	color: black;
+	color: white;
 }
 /*row and columns */
 #rowcontainer
